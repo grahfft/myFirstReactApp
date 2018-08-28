@@ -1,4 +1,12 @@
 .MyNewComponent {
-    text-align: left;
+  display: grid;
+  grid-template-columns: 240px 240px
+}
+
+.LeftAlign {
+    align-content: left;
   }
-  
+
+.RightAlign {
+  align-content: right;
+}
